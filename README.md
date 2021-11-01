@@ -1,1 +1,1 @@
-# all-about-TS
+# All About TypeScript
