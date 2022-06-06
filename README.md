@@ -1,9 +1,14 @@
 # All about TypeScript
 
+- [Exclamation mark](#exclamation-mark)
 - [interface](#interface)
 - [type](#type)
 - [Generics](./generics)
 - [React](./react)
+
+## Exclamation mark
+
+That's the `non-null` assertion operator. It is a way to tell the compiler "this expression cannot be `null` or `undefined` here, so don't complain about the possibility of it being `null` or `undefined`." Sometimes the type checker is unable to make that determination itself. [^em-1]
 
 ## `interface`
 
@@ -125,3 +130,5 @@ type Reponse = [string, number]
 2. [Harry Wolff; TypeScript Interfaces vs Types (2020.5)](https://youtu.be/crjIq7LEAYw)
 3. [Ben Awad; Typescript Generics Tutorial (2019.8)](https://youtu.be/nViEqpgwxHE)
 4. [Leonardo Maldonado; Types vs. interfaces in TypeScript (2020.5)](https://blog.logrocket.com/types-vs-interfaces-in-typescript/)
+
+[^em-1]: https://stackoverflow.com/questions/42273853/in-typescript-what-is-the-exclamation-mark-bang-operator-when-dereferenci
