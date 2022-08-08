@@ -6,7 +6,7 @@
 - [Generics](./generics)
 - [React](./react)
 
-## Exclamation mark
+## Exclamation mark `!`
 
 That's the `non-null` assertion operator. It is a way to tell the compiler "this expression cannot be `null` or `undefined` here, so don't complain about the possibility of it being `null` or `undefined`." Sometimes the type checker is unable to make that determination itself. [^em-1]
 
