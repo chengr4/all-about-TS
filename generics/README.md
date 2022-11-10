@@ -2,7 +2,7 @@
 
 - We need a way of capturing the type of the argument in such a way that we can also use it to denote what is being returned.
 
-> NOte: It is not possible to create generic enums and namespaces.
+> Note: It is not possible to create generic [enums](https://github.com/chengr4/all-about-TS/tree/main/enums) and namespaces.
 
 ## Goal
 
