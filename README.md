@@ -7,6 +7,8 @@
 - [Enums](./enums/)
 - [React](./react)
 - [Finish Topics](#finished-topics)
+- [Utility Types](./utility-types/)
+
 
 ## Exclamation mark `!`
 
@@ -125,6 +127,7 @@ type Reponse = [string, number]
 - [x] [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
 
 - [ ] [Enums](https://www.typescriptlang.org/docs/handbook/enums.html)
+- [ ] [Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
 
 ## References
 
