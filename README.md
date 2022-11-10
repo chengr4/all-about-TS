@@ -4,7 +4,9 @@
 - [interface](#interface)
 - [type](#type)
 - [Generics](./generics)
+- [Enums](./enums/)
 - [React](./react)
+- [Finish Topics](#finished-topics)
 
 ## Exclamation mark `!`
 
@@ -120,9 +122,9 @@ type Reponse = [string, number]
 
 ## Finished Topics
 
-### Handbook
-
 - [x] [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
+
+- [ ] [Enums](https://www.typescriptlang.org/docs/handbook/enums.html)
 
 ## References
 
