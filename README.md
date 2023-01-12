@@ -14,6 +14,17 @@
 
 That's the `non-null` assertion operator. It is a way to tell the compiler "this expression cannot be `null` or `undefined` here, so don't complain about the possibility of it being `null` or `undefined`." Sometimes the type checker is unable to make that determination itself. [^em-1]
 
+## Index Signature
+
+An index signature is defined using the `[key: type]` syntax, where `key` is the name of the property, and `type` is the type of the value that should be stored at that property
+
+```typescript
+// eg
+interface MyObject {
+  [key: string]: string;
+}
+```
+
 ## `interface`
 
 > Interfaces are basically a way to describe data shapes, for example, an object
